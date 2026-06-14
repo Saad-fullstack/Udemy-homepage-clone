@@ -1,0 +1,89 @@
+/* ================= Navigational Bar ================== */
+
+.nav-items {
+    font-size: 14px;
+    color: rgb(107, 107, 107);
+    border-radius: 10px;
+    /* padding: 5px 8px; */
+}
+
+.nav-items:hover {
+    color: blueviolet;
+    background-color: whitesmoke;
+}
+
+.search-icon {
+    left: 30px;
+    color: rgb(142, 141, 141);
+}
+
+.search {
+    width: 420px;
+}
+
+.input {
+    font-size: 14px;
+    color: rgb(142, 141, 141);
+    border-color: rgb(118, 117, 117) !important;
+    padding-left: 35px !important;
+    padding: 13px 0;
+}
+
+.input:hover {
+    background-color: whitesmoke;
+}
+
+.login-btn {
+    border-color: blueviolet !important;
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 9px 14px !important;
+}
+
+.login-btn:hover {
+    background-color: whitesmoke !important;
+    color: blueviolet;
+}
+
+.signup-btn {
+    background-color: blueviolet;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 10px 15px !important;
+}
+
+.signup-btn:hover {
+    background-color: rgba(137, 43, 226, 0.888);
+}
+
+.fa-globe {
+    color: black;
+    font-size: 16px;
+}
+
+.fa-cart-shopping {
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.fa-cart-shopping:hover {
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+@media (max-width: 992px) {
+    .login-btn {
+        margin: 8px 0;
+    }
+
+    .search-icon {
+        top: 35px;
+        left: 20px;
+    }
+
+    .search {
+        width: 350px;
+    }
+}
