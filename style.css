@@ -87,3 +87,25 @@
         width: 350px;
     }
 }
+
+/*========================== Hero Section ======================== */
+.hero-title {
+    color: black;
+    margin-bottom: 10px;
+}
+
+.hero-text {
+    color: rgb(72, 72, 72);
+}
+
+@media (max-width: 650px) {
+    .hero-card {
+        position: static !important;
+        width: 100%;
+        margin: 0 !important;
+        padding: 0 !important;        
+    }
+    .hero-card .card-body {
+        padding: 0 !important;
+    }
+}
