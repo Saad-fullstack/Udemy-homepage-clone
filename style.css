@@ -2,6 +2,7 @@
 
 .nav-items {
     font-size: 14px;
+    font-weight: 300;
     color: rgb(107, 107, 107);
     border-radius: 10px;
     /* padding: 5px 8px; */
@@ -96,6 +97,7 @@
 
 .hero-text {
     color: rgb(72, 72, 72);
+    font-weight: 200;
 }
 
 @media (max-width: 650px) {
@@ -107,5 +109,48 @@
     }
     .hero-card .card-body {
         padding: 0 !important;
+    }
+}
+
+/* ========================= Skills Section ========================== */
+.left-section p {
+    color: rgb(72, 72, 72);
+    font-weight: 100;
+}
+
+.overlay-text {
+    background-color: white;
+    margin: 10px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 0 20px !important;  
+}
+
+.overlay-text h6 {
+    padding: 30px 0;  
+    font-size: 18px;
+    font-weight: 400;
+}
+
+@media (max-width: 650px) {
+    .skills-section {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 470px) {
+    .carousel-item img {
+        height: 200px;
+    }
+    .overlay-text {
+        margin: 5px;
+        padding: 0 10px !important;
+    }
+    .overlay-text h6 {
+        padding: 15px 0;
     }
 }
