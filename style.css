@@ -154,3 +154,81 @@
         padding: 15px 0;
     }
 }
+
+/* Trending Courses */
+.course-title {
+    font-size: 17px;
+}
+
+.instructor-name {
+    font-size: 12px;
+    color: rgb(72, 72, 72);
+}
+
+.seller-quality {
+    font-size: 13px;
+    font-weight: 500;
+    background-color: rgb(191, 229, 229);
+    padding: 2px 6px;
+    border-radius: 5px;
+}
+
+.review {
+    font-size: 13px;
+    font-weight: 200;
+    color: rgb(78, 77, 77);
+    border: 1px solid rgb(143, 142, 142);
+    padding: 1px 6px;
+    border-radius: 5px;
+}
+.review .fa-star {
+    color: rgb(165, 137, 12);
+    font-size: 10px;
+    margin-right: 3px;
+}
+
+
+.rating {
+    font-size: 12px;
+    font-weight: 200;
+    color: rgb(78, 77, 77);
+    border: 1px solid rgb(143, 142, 142);
+    padding: 1px 6px;
+    border-radius: 5px;
+}
+
+.price {
+    font-weight: bold;
+}
+.price del {
+    font-weight: 300;
+    color: rgb(78, 77, 77);
+    margin-left: 5px;
+}
+
+.course-card:hover {
+    background-color: rgba(239, 238, 238, 0.8);
+    cursor: pointer;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 50px;
+    height: 50px;
+    background: white;
+    border-radius: 50%;
+    top: 40%;
+    opacity: 1;
+}
+
+.carousel-control-prev i,
+.carousel-control-next i {
+    color: black;
+    font-size: 20px;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    background-color: rgb(237, 237, 237);
+    opacity: 1;
+}
