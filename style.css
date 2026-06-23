@@ -337,3 +337,43 @@
         padding: 20px !important;
     }
 }
+
+/* =============== Get Certificate ============== */
+.card-img-container .card img {
+    width: 100%;
+}
+
+.card-img-container .card:hover {
+    opacity: 0.8;
+}
+
+.text-container a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.text-container a:hover {
+    cursor: pointer;
+    background-color: rgb(31, 30, 30);
+}
+
+@media (max-width: 768px) {
+    .card-img-container .card {
+        width: 180px !important;
+        height: auto !important;
+    }
+}
+
+@media (max-width: 600px) {
+    .card-img-container .card {
+        width: 100% !important;
+        margin-bottom: 12px;
+    }
+
+    .card-img-container {
+        flex-direction: column;
+        padding: 0 15px !important;
+    }
+}
