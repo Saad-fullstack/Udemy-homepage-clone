@@ -377,3 +377,15 @@
         padding: 0 15px !important;
     }
 }
+
+/* =========== Imagine your career ============= */
+@media (max-width: 700px) {
+    .career-card-container {
+        flex-direction: column;
+    }
+
+    .career-card-container .card {
+        width: 100% !important;
+        margin-bottom: 12px;
+    }
+}
